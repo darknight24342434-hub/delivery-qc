@@ -1,0 +1,15 @@
+{
+  "expected_duration_sec": 42.0,
+  "duration_tolerance_sec": 0.5,
+  "width": 1920,
+  "height": 1080,
+  "require_audio": true,
+  "lufs_min": -24.0,
+  "lufs_max": -14.0,
+  "max_black_segment_sec": 3.0,
+  "max_freeze_segment_sec": 3.0,
+  "mp4_video_codecs": ["h264", "hevc"],
+  "mp4_audio_codecs": ["aac", "alac", "mp3"],
+  "mov_video_codecs": ["h264", "hevc", "prores"],
+  "mov_audio_codecs": ["aac", "alac", "pcm_s16le", "pcm_s24le", "pcm_s32le"]
+}
